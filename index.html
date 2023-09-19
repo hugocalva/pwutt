@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejemplo flexbox</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="manifest" href="./manifest.json">
+    <script>
+        if("serviceWorker" in navigator)
+        {
+            navigator.serviceWorker.register("sw.js");
+        }
+    </script>
+</head>
+<body>
+    <div id="principal">
+        <header>
+            <h1>Encabezado</h1>
+        </header>
+        <nav><h2>Menu</h2></nav>
+        <section class="flex-container">
+            
+                
+                <div class="caja">
+                    caja 1
+                </div>
+                <div class="caja">
+                    caja 2
+                </div>
+                <div class="caja">
+                     caja 3
+                </div>
+                <div class="caja">
+                caja 4
+                 </div>
+        
+        </section>
+        <aside>
+            <h3>publicidad</h3>
+        </aside>
+        <footer>
+            <h3>Todos los derechos reservados</h3>
+        </footer>
+
+    </div>
+</body>
+</html>
